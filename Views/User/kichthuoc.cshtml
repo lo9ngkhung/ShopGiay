@@ -1,0 +1,10 @@
+﻿
+@foreach (var item in Model)
+{
+    <ul class="no-bullets">
+        <li>
+            <a href="@Url.Action("SPTheokichthuoc",new { id = item.MAKICHTHUOC })" class="no-bullets"> @item.TENKICHTHUOC </a>
+        </li>
+    </ul>
+}
+
